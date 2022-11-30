@@ -1,0 +1,92 @@
+body, html, ul, li{
+    margin: 0;
+    padding: 0.5em;
+}
+.navRow{
+    display: flex;
+    background-color: #3498db;
+}
+.navRow>ul{
+    display: flex;
+    width:100%;
+    list-style: none;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.navRow>ul>li{
+    flex:1;
+    padding: 0.5em;
+    font-family: Georgia, serif;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#layout{
+    padding-top: 0.0em;
+    padding-left: 1.0em;
+    padding-right: 1.0em;
+    padding-bottom: 1em;
+    border: none;
+    background: beige;
+    
+}
+table.image-table, table.image-table td {
+    border: none;
+    text-align: left;
+}
+td {
+    padding: 2px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-align: center;
+  
+}
+h1{
+    font-size: 200%;
+    font-weight: bold;
+    color:rgb(64, 64, 238);
+    margin-top: 0.7em;
+    margin-bottom: 0.3em;
+    padding-bottom: 0.2em;
+    line-height: 1.0;
+    padding-top: 0.5em;
+    border-bottom: 1px solid #aaaaaa;
+}
+h2{
+    font-size: 120%;
+    color: rgb(64, 64, 238);
+}
+h3{
+    font-size: 90%;
+    color: rgb(229, 116, 75);
+    font-style: italic;
+}
+h4{
+    font-size: 150%;
+    font-weight: bold;
+    color:rgb(64, 64, 238);
+    margin-top: 0.7em;
+    margin-bottom: 0.3em;
+    padding-bottom: 0.2em;
+    line-height: 1.0;
+    padding-top: 0.5em;
+    border-bottom: 1px solid #aaaaaa;
+}
+body {
+    font-family: Georgia, serif;
+    padding-bottom: 8px;
+}
+table{
+    width: 100%;
+    border: 3px black;
+}
+#comment {
+    height: 300px;
+    width : 800px;
+}
+p{
+    text-indent: 40px;
+}
